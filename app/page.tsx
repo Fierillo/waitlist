@@ -56,7 +56,7 @@ export default function LandingPage() {
 
   return (
     <div className='flex flex-col min-h-screen'>
-      <div className='container px-4 mx-auto flex-grow'>
+      <div className='container px-10 mx-auto flex-grow'>
         <header className='pt-12 pb-0 flex justify-center items-center relative'>
           <div className='relative mx-4 sm:mx-12 md:mx-24 lg:mx-32'>
             <div className='absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-[320px] h-[80px] bg-gray-300 rounded-full filter blur-xl opacity-60'></div>
