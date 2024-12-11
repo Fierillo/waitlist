@@ -77,7 +77,7 @@ export default function LandingPage() {
             </h1>
             <p className='mt-6 text-lg text-muted-foreground md:text-xl'>
               Manage <b>lightning domains</b> easily and build the path for
-              hyperbitcoinization using domain-driven approach
+              hyperbitcoinization using domain-driven philosophy
             </p>
             <div className='mt-10 max-w-md mx-auto'>
               {isSuccess ? (
