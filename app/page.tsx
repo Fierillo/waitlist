@@ -42,11 +42,11 @@ export default function LandingPage() {
     {
       name: "Instagram",
       icon: Instagram,
-      url: "https://instagram.com/lacrypta",
+      url: "https://instagram.com/lacryptaok",
     },
-    { name: "Twitter", icon: Twitter, url: "https://twitter.com/lacrypta" },
-    { name: "GitHub", icon: Github, url: "https://github.com/lacrypta" },
-    { name: "Telegram", icon: Send, url: "https://t.me/lacrypta" },
+    { name: "Twitter", icon: Twitter, url: "https://twitter.com/lacryptaok" },
+    { name: "GitHub", icon: Github, url: "https://github.com/lacryptaok" },
+    { name: "Telegram", icon: Send, url: "https://t.me/lacryptaok" },
     {
       name: "Discord",
       icon: MessageCircle,
