@@ -57,14 +57,14 @@ export default function LandingPage() {
   return (
     <div className='flex flex-col min-h-screen'>
       <div className='container px-10 mx-auto flex-grow'>
-        <header className='pt-12 pb-0 flex justify-center items-center relative'>
-          <div className='relative mx-4 sm:mx-12 md:mx-24 lg:mx-32'>
-            <div className='absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-[320px] h-[80px] bg-gray-300 rounded-full filter blur-xl opacity-60'></div>
+        <header className='pt-12 pb-4 flex justify-center items-center relative'>
+          <div className='relative mx-8 sm:mx-12 md:mx-24 lg:mx-32 w-[400px] h-[80px]'>
+            <div className='absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-[90%] h-[20px] bg-gray-600 rounded-full filter blur-xl opacity-45'></div>
+
             <Image
               src={waliasLogo}
               alt='Walias.io Logo'
-              width={360}
-              height={96}
+              fill={true}
               className='h-24 w-auto relative z-10'
               priority
             />
@@ -72,7 +72,7 @@ export default function LandingPage() {
         </header>
         <main className='pt-8 pb-16 md:py-10 lg:py-18'>
           <div className='max-w-3xl mx-auto text-center'>
-            <h1 className='text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl'>
+            <h1 className='text-3xl mb-12 font-bold tracking-tight sm:text-4xl md:text-5xl'>
               just email money
             </h1>
             <p className='mt-6 text-lg text-muted-foreground md:text-xl'>
