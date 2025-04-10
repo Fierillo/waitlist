@@ -45,7 +45,7 @@ export default function LandingPage() {
       url: "https://instagram.com/lacryptaok",
     },
     { name: "Twitter", icon: Twitter, url: "https://twitter.com/lacryptaok" },
-    { name: "GitHub", icon: Github, url: "https://github.com/lacryptaok" },
+    { name: "GitHub", icon: Github, url: "https://github.com/lacrypta" },
     { name: "Telegram", icon: Send, url: "https://t.me/lacryptaok" },
     {
       name: "Discord",
