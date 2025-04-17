@@ -1,6 +1,6 @@
 "use server";
 
-import { sendy } from "@/services/sendy";
+import { subscribeToSendy } from "@/services/sendy";
 
 export async function joinWaitlist(formData: FormData) {
   // Simulate API delay
@@ -24,11 +24,7 @@ export async function joinWaitlist(formData: FormData) {
     };
   }
 
-  await sendy.subscribe({
-    name: "",
-    email,
-    listId: process.env.SENDY_LIST_ID!,
-  });
+  await subscribeToSendy(email, process.env.SENDY_LIST_ID!);
 
   return {
     success: true,

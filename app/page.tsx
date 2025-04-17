@@ -1,15 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { useTransition } from "react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { joinWaitlist } from "../lib/actions";
 import { BitcoinPriceDisplay } from "@/components/ui/price";
 import {
-  Loader2,
-  CheckCircle,
   Instagram,
   Twitter,
   Github,
@@ -19,23 +12,6 @@ import {
 import SubscriptionForm from "@/components/ui/suscription-form";
 
 export default function LandingPage() {
-  const [email, setEmail] = useState("");
-  const [isSuccess, setIsSuccess] = useState(false);
-  const [isPending, startTransition] = useTransition();
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const formData = new FormData();
-    formData.append("email", email);
-
-    startTransition(() => {
-      joinWaitlist(formData).then((result) => {
-        if (result.success) {
-          setIsSuccess(true);
-        }
-      });
-    });
-  };
 
   const socialLinks = [
     { name: "Instagram", icon: Instagram, url: "https://instagram.com/lacryptaok" },
