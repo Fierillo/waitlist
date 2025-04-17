@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useTransition } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { joinWaitlist } from "@/app/actions";
+import { joinWaitlist } from "@/lib/actions";
 import { Loader2, CheckCircle } from "lucide-react";
 
 export default function SubscriptionForm() {
@@ -30,8 +30,8 @@ export default function SubscriptionForm() {
     <div className="mt-5 max-w-md mx-auto">
       {isSuccess ? (
         <div className="flex flex-col items-center space-y-4 animate-fade-in-up">
-          <CheckCircle className="w-16 h-16 text-green-400" />
-          <div className="text-2xl font-semibold text-green-400">
+          <CheckCircle className="w-8 h-8 text-green-400" />
+          <div className="text-xl font-semibold text-green-400">
             ¡Gracias por unirte a nuestra lista de espera!
           </div>
         </div>

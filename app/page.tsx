@@ -5,7 +5,7 @@ import { useTransition } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { joinWaitlist } from "../app/actions";
+import { joinWaitlist } from "../lib/actions";
 import { BitcoinPriceDisplay } from "@/components/ui/price";
 import {
   Loader2,
