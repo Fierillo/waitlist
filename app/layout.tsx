@@ -3,8 +3,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Walias.io - The Future of Digital Identity',
-  description: 'Join the waitlist for the next generation of digital identity management.',
+  title: 'Waitlist para el Bitcoin Pizza Day',
+  description: '¡No te vayas a quedar afuera de este evento único!',
 }
 
 export default function RootLayout({
